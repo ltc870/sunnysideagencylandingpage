@@ -1,0 +1,96 @@
+/* TYPOGRAPHY */
+
+.picture {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.subtext {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #808397;
+    line-height: 30px;
+    margin: 2em auto;
+}
+
+.mainLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #24303E;
+    font-size: .9375rem;
+}
+
+.graphicDesignTitle {
+    font-size: 1.75rem;
+    color: #24554A;
+}
+
+.graphicDesignText {
+    font-size: 1rem;
+    color: #24554A;
+    font-family: "Barlow", sans-serif;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.photographyTitle {
+    font-size: 1.75rem;
+    color: #19536C;
+}
+
+.photographyText {
+    font-size: 1rem;
+    color: #19536C;
+    font-family: "Barlow", sans-serif;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.graphicDesign {
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 3em;
+}
+
+.photography {
+    background: url("../images/mobile/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20em;
+    padding-bottom: 3em;
+}
+
+
+/* LAYOUT */
+
+.transform,
+.standout {
+    background-color: #FFFFFF;
+    margin-top: -1em;
+}
+
+.transformContainer,
+.standoutContainer {
+    max-width: 327px;
+    margin: 0 auto;
+    padding: 2em 0em 4em;
+}
+
+.graphicDesignContainer,
+.photographyContainer {
+    max-width: 327px;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+
+
+

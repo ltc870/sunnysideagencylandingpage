@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0em auto;
+    padding-top: 2em;
+    position: relative;
+}
+
+.hamburgerMenu {
+    background-color: transparent;
+    border: none;
+}
+
+.hamburgerMenu:hover,
+.hamburgerMenu:active {
+    cursor: pointer;
+    opacity: .5;
+}
