@@ -16,12 +16,12 @@ const Main = () => {
                         compelling visuals that do most of the marketing for
                         you.
                     </p>
-                    <a className={classes.mainLink} href="#">
-                        Learn more
+                    <a
+                        className={`${classes.mainLink} ${classes.transformLink}`}
+                        href="#"
+                    >
+                        <span>Learn more</span>
                     </a>
-                    <div
-                        className={`${classes.underline} ${classes.transformLine}`}
-                    ></div>
                 </div>
             </div>
             <img className={classes.picture} src={cup} alt="a cup" />
@@ -35,12 +35,12 @@ const Main = () => {
                         photographers, videographers, and copywriters, we’ll
                         build and extend your brand in digital places.
                     </p>
-                    <a className={classes.mainLink} href="#">
-                        Learn more
+                    <a
+                        className={`${classes.mainLink} ${classes.standOutLink}`}
+                        href="#"
+                    >
+                        <span>Learn more</span>
                     </a>
-                    <div
-                        className={`${classes.underline} ${classes.standOutLine}`}
-                    ></div>
                 </div>
             </div>
             <div className={classes.graphicDesign}>
