@@ -16,7 +16,10 @@ const Main = () => {
                         compelling visuals that do most of the marketing for
                         you.
                     </p>
-                    <a className={classes.mainLink} href="#">
+                    <a
+                        className={`${classes.mainLink} ${classes.transformLink}`}
+                        href="#"
+                    >
                         Learn more
                     </a>
                 </div>
@@ -32,7 +35,10 @@ const Main = () => {
                         photographers, videographers, and copywriters, we’ll
                         build and extend your brand in digital places.
                     </p>
-                    <a className={classes.mainLink} href="#">
+                    <a
+                        className={`${classes.mainLink} ${classes.standoutLink}`}
+                        href="#"
+                    >
                         Learn more
                     </a>
                 </div>
