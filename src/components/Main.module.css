@@ -84,12 +84,32 @@
     padding: 2em 0em 4em;
 }
 
-.underline {
-    margin: -8px auto;
-    padding: 5px;
-    background-color: #000000;
-    width: 37%;
-    border-radius: 10px;
+.mainLink span::after {
+    margin: -.5em auto;
+    opacity: .5;
+    content: '';
+    height: 8px;
+    border-radius: 5px;
+    display: block;
+    width: 40%;
+}
+
+.transformLink span::after {
+    background-color: #FAD400;
+}
+
+.transformLink span:hover::after,
+.transformLink span:focus::after {
+    opacity: 1;
+}
+
+.standOutLink span::after {
+    background-color: #FE7766;
+}
+
+.standOutLink span:hover::after,
+.standOutLink span:focus::after {
+    opacity: 1;
 }
 
 .graphicDesignContainer,
