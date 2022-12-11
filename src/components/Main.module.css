@@ -2,6 +2,7 @@
 
 .picture {
     width: 100%;
+    display: block;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -74,7 +75,7 @@
 .transform,
 .standout {
     background-color: #FFFFFF;
-    margin-top: -1em;
+    
 }
 
 .transformContainer,
