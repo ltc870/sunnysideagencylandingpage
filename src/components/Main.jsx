@@ -6,7 +6,11 @@ import classes from "./Main.module.css";
 const Main = () => {
     return (
         <main className={classes.main}>
-            <img className={classes.picture} src={egg} alt="an egg" />
+            <img
+                className={`${classes.picture} ${classes.eggPicture}`}
+                src={egg}
+                alt="an egg"
+            />
             <div className={classes.transform}>
                 <div className={classes.transformContainer}>
                     <h2 className={classes.subtitle}>Transform your brand</h2>
