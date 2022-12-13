@@ -119,6 +119,30 @@
     padding-top: 2em;
 }
 
+@media (min-width: 800px) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 50%);
+    }
 
+    .transform {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
 
+    .eggPicture {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
 
+    .graphicDesign {
+        background: url("../images/desktop/image-graphic-design.jpg"), no-repeat;
+        background-size: cover;
+    }
+
+    .photography {
+        background: url("../images/desktop/image-photography.jpg"), no-repeat;
+        background-size: cover;
+    }
+}
