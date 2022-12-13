@@ -61,26 +61,34 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className={classes.gallery}>
-                <img
-                    className={classes.galleryPicture}
-                    src={milk}
-                    alt="milk bottles"
-                />
-                <img
-                    className={classes.galleryPicture}
-                    src={orange}
-                    alt="an orange"
-                />
-                <img
-                    className={classes.galleryPicture}
-                    src={cone}
-                    alt="an ice cream cone"
-                />
-                <img
-                    className={classes.galleryPicture}
-                    src={sugar}
-                    alt="sugar cubes"
-                />
+                <div>
+                    <img
+                        className={classes.galleryPicture}
+                        src={milk}
+                        alt="milk bottles"
+                    />
+                </div>
+                <div>
+                    <img
+                        className={classes.galleryPicture}
+                        src={orange}
+                        alt="an orange"
+                    />
+                </div>
+                <div>
+                    <img
+                        className={classes.galleryPicture}
+                        src={cone}
+                        alt="an ice cream cone"
+                    />
+                </div>
+                <div>
+                    <img
+                        className={classes.galleryPicture}
+                        src={sugar}
+                        alt="sugar cubes"
+                    />
+                </div>
             </div>
         </section>
     );
