@@ -1,4 +1,4 @@
-header {
+.header {
     background: url("../images/mobile/image-header.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 8em;
@@ -21,9 +21,11 @@ header {
     margin-top: 1.7em;
 }
 
-@media (width: 800px) {
+@media (min-width: 800px) {
     .header {
-        background: url("../images/desktop/image-header.jpg"), no-repeat;
+        background: url("../images/desktop/image-header.jpg") no-repeat;
         background-size: cover;
+        background-position: center;
+        padding-bottom: 30em;
     }
 }
