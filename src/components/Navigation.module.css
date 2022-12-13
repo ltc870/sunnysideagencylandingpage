@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.desktopNav {
+    display: none;
+}
+
 .hamburgerMenu {
     background-color: transparent;
     border: none;
@@ -16,4 +20,36 @@
 .hamburgerMenu:active {
     cursor: pointer;
     opacity: .5;
+}
+
+@media (min-width: 800px) {
+    .hamburgerMenu {
+        display: none;
+    }
+
+    .navigation {
+        align-items: flex-start;
+    }
+
+    .navigationMenu {
+        display: flex;
+        width: 47%;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .desktopNav {
+        display: block;
+        font-family: "Barlow", sans-serif;
+        font-size: .9375rem;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .desktopNav:hover {
+        background-color: rgb(255, 255, 255, .3);
+        font-family: "Fraunces", sans-serif; 
+        border-radius: 28px;
+        padding: 1em 1.5em;
+    }
 }
