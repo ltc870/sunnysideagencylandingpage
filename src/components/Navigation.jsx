@@ -21,6 +21,18 @@ const Navigation = () => {
                     <img src={hamburger} alt="menu" />
                 </button>
                 {isOpen && <Dropdown />}
+                <a className={classes.desktopNav} href="#">
+                    About
+                </a>
+                <a className={classes.desktopNav} href="#">
+                    Services
+                </a>
+                <a className={classes.desktopNav} href="#">
+                    Projects
+                </a>
+                <a className={classes.desktopNav} href="#">
+                    Contact
+                </a>
             </nav>
         </div>
     );
