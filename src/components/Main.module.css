@@ -1,12 +1,5 @@
 /* TYPOGRAPHY */
 
-.picture {
-    width: 100%;
-    display: block;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
 .subtitle {
     font-size: 2rem;
 }
@@ -71,6 +64,14 @@
 
 
 /* LAYOUT */
+
+.picture {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .transform,
 .standout {
@@ -139,10 +140,12 @@
     .graphicDesign {
         background: url("../images/desktop/image-graphic-design.jpg"), no-repeat;
         background-size: cover;
+        background-position: center;
     }
 
     .photography {
         background: url("../images/desktop/image-photography.jpg"), no-repeat;
         background-size: cover;
+        background-position: center;
     }
 }
