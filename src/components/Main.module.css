@@ -132,6 +132,35 @@
         grid-row: 1 / 2;
     }
 
+    .transformContainer,
+    .standoutContainer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: left;
+        padding-top: 6.5em;
+        max-width: 435px;
+    }
+
+    .subtitle {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .mainLink span{
+        text-align: left;
+        margin-left: .7em;
+    }
+
+    .mainLink span::after {
+        margin-top: -.5;
+        margin-left: 0;
+        width: 30%;
+    }
+
+    
     .eggPicture {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
