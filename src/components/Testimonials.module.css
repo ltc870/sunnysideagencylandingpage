@@ -80,6 +80,14 @@
         width: 85%;
     }
 
+    .testimonialBox {
+        max-width: 350px;
+    }
+
+    .testimonialText {
+        margin-bottom: 4em;
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(4, auto);
