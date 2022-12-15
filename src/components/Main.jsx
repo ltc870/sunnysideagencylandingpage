@@ -54,7 +54,7 @@ const Main = () => {
             <div className={classes.graphicDesign}>
                 <div className={classes.graphicDesignContainer}>
                     <h3 className={classes.graphicDesignTitle}>
-                        Graphic design
+                        Graphic Design
                     </h3>
                     <p className={classes.graphicDesignText}>
                         Great design makes you memorable. We deliver artwork
