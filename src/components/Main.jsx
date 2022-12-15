@@ -28,7 +28,11 @@ const Main = () => {
                     </a>
                 </div>
             </div>
-            <img className={classes.picture} src={cup} alt="a cup" />
+            <img
+                className={`${classes.picture} ${classes.cupPicture}`}
+                src={cup}
+                alt="a cup"
+            />
             <div className={classes.standout}>
                 <div className={classes.standoutContainer}>
                     <h2 className={classes.subtitle}>
