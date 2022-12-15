@@ -49,6 +49,18 @@
     color: #FFFFFF;
 }
 
+@media (min-width: 800px) {
+    .contact {
+        justify-content: space-evenly;
+        margin: 1em auto 6em;
+        width: 35%;
+    }
+
+    .socialMedia {
+        width: 15%;
+    }
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
