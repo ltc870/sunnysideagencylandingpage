@@ -83,7 +83,11 @@ const Footer = () => {
                 >
                     Frontend Mentor
                 </a>
-                . Coded by <a href="#">Your Name Here</a>.
+                . Coded by{" "}
+                <a href="https://www.lawrencecaudle.com" target="_blank">
+                    Lawrence Caudle
+                </a>
+                .
             </div>
         </footer>
     );
