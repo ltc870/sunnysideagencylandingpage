@@ -73,6 +73,14 @@
     margin-bottom: 0;
 }
 
+.eggPicture {
+    background-color: #FAD400;
+}
+
+.cupPicture {
+    background-color: #FE7766;
+}
+
 .transform,
 .standout {
     background-color: #FFFFFF;
