@@ -72,6 +72,10 @@
 }
 
 @media (min-width: 800px) {
+    .testimonialHeading {
+        padding-top: 6em;
+    }
+    
     .testimonialContainer {
         display: flex;
         flex-direction: row;
@@ -86,6 +90,10 @@
 
     .testimonialText {
         margin-bottom: 4em;
+    }
+
+    .testimonialPosition {
+        padding-bottom: 6em;
     }
 
     .gallery {
