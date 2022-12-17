@@ -14,7 +14,7 @@ import classes from "./Testimonials.module.css";
 
 const Testimonials = () => {
     return (
-        <div className={classes.testimonialSection}>
+        <section className={classes.testimonialSection}>
             <h3 className={classes.testimonialHeading}>Client testimonials</h3>
             <div className={classes.testimonialContainer}>
                 <div className={classes.testimonialBox}>
@@ -93,7 +93,7 @@ const Testimonials = () => {
                     alt="sugar cubes"
                 />
             </div>
-        </div>
+        </section>
     );
 };
 
