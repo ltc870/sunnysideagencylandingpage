@@ -6,8 +6,13 @@ import classes from "./Testimonials.module.css";
 
 const Testimonials = () => {
     return (
-        <section className={classes.testimonialSection}>
-            <h3 className={classes.testimonialHeading}>Client testimonials</h3>
+        <section
+            aria-labelledby="testimonialHeading"
+            className={classes.testimonialSection}
+        >
+            <h3 id="testimonialHeading" className={classes.testimonialHeading}>
+                Client testimonials
+            </h3>
             <div className={classes.testimonialContainer}>
                 <div className={classes.testimonialBox}>
                     <img
