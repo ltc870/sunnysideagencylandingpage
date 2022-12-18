@@ -69,6 +69,7 @@ const Testimonials = () => {
                     className={classes.galleryPicture}
                     src={milk}
                     srcSet={`${milk} 376w, ${milk2} 720w`}
+                    sizes="(min-width: 800px) 720px, 376px"
                     alt="milk bottles"
                 />
 
@@ -76,6 +77,7 @@ const Testimonials = () => {
                     className={classes.galleryPicture}
                     src={orange}
                     srcSet={`${orange} 376w, ${orange2} 720w`}
+                    sizes="(min-width: 800px) 720px, 376px"
                     alt="an orange"
                 />
 
@@ -83,6 +85,7 @@ const Testimonials = () => {
                     className={classes.galleryPicture}
                     src={cone}
                     srcSet={`${cone} 376w, ${cone2} 720w`}
+                    sizes="(min-width: 800px) 720px, 376px"
                     alt="an ice cream cone"
                 />
 
@@ -90,6 +93,7 @@ const Testimonials = () => {
                     className={classes.galleryPicture}
                     src={sugar}
                     srcSet={`${sugar} 376w, ${sugar2} 720w`}
+                    sizes="(min-width: 800px) 720px, 376px"
                     alt="sugar cubes"
                 />
             </div>
