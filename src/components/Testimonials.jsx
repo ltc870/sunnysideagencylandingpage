@@ -78,7 +78,7 @@ const Testimonials = () => {
                     src={orange}
                     srcSet={`${orange} 376w, ${orange2} 720w`}
                     sizes="(min-width: 800px) 720px, 376px"
-                    alt="an orange"
+                    alt="an orange on a white plate with green trim"
                 />
 
                 <img
@@ -94,7 +94,7 @@ const Testimonials = () => {
                     src={sugar}
                     srcSet={`${sugar} 376w, ${sugar2} 720w`}
                     sizes="(min-width: 800px) 720px, 376px"
-                    alt="sugar cubes"
+                    alt="sugar cubes stacked atop each other"
                 />
             </div>
         </section>
