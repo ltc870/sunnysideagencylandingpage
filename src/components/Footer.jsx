@@ -1,9 +1,5 @@
 import React from "react";
 import logo2 from "../images/logo2.svg";
-import facebook from "../images/icon-facebook.svg";
-import instagram from "../images/icon-instagram.svg";
-import twitter from "../images/icon-twitter.svg";
-import pinterest from "../images/icon-pinterest.svg";
 import {
     faFacebookSquare,
     faInstagram,
@@ -43,7 +39,7 @@ const Footer = () => {
             </nav>
             <ul className={classes.socialMedia}>
                 <li>
-                    <a href="#">
+                    <a href="#" aria-label="Facebook link">
                         <FontAwesomeIcon
                             className={classes.socialLink}
                             icon={faFacebookSquare}
@@ -51,7 +47,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" aria-label="Instagram link">
                         <FontAwesomeIcon
                             className={classes.socialLink}
                             icon={faInstagram}
@@ -59,7 +55,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" aria-label="Twitter link">
                         <FontAwesomeIcon
                             className={classes.socialLink}
                             icon={faTwitter}
@@ -67,7 +63,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#" aria-label="Pinterest link">
                         <FontAwesomeIcon
                             className={classes.socialLink}
                             icon={faPinterest}
