@@ -11,8 +11,8 @@ import classes from "./Gallery.module.css";
 
 const Gallery = () => {
     return (
-        <section>
-            <div className={classes.gallery}>
+        <section aria-labelledby="gallery">
+            <div id="gallery" className={classes.gallery}>
                 <img
                     className={classes.galleryPicture}
                     src={milk}
