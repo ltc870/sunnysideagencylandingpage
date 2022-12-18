@@ -61,15 +61,7 @@
     margin-bottom: 6em;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
-}
 
-.galleryPicture {
-    width: 100%;
-}
 
 @media (min-width: 800px) {
     .testimonialHeading {
@@ -96,13 +88,4 @@
         padding-bottom: 6em;
     }
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-    }
-
-    .galleryPicture {
-        display: block;
-        width: 100%;
-    }
 }
