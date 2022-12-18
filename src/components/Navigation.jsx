@@ -13,7 +13,11 @@ const Navigation = () => {
     return (
         <div className={classes.navigation}>
             <img className={classes.logo} src={logo} alt="logo" />
-            <nav id="navigationMenu" className={classes.navigationMenu}>
+            <nav
+                id="navigation-menu"
+                aria-label="navigation-menu"
+                className={classes.navigationMenu}
+            >
                 <button
                     className={classes.hamburgerMenu}
                     onClick={handleOnClick}
